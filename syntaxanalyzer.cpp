@@ -100,7 +100,7 @@ void SyntaxAnalyzer::run(std::ifstream &in)
     }
     if(currentState == 12)
     {
-        std::cout << "\n\nAll right." << currentState;
+        std::cout << "\n\nAll right\n\n";
     }
     else if(currentState != -1)
     {
